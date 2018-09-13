@@ -86,7 +86,7 @@ namespace VoltageDivider
                 double min_error2 = double.MaxValue;
                 for (int i = 0; i < nominals.Length; i++)
                 {
-                    double error = Math.Abs(r1Optimal - nominals[i]);
+                    double error = Math.Abs(r2Optimal - nominals[i]);
                     if (error < min_error2)
                     {
                         min_error2 = error;
